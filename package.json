@@ -1,0 +1,35 @@
+{
+  "name": "no-suck-validation",
+  "version": "1.0.0-pre",
+  "description": "A validation framework for the browser that doesn't suck and doesn't depend on jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Kevnz/no-suck-validation.git"
+  },
+  "keywords": [
+    "validation",
+    "validators",
+    "form",
+    "browser"
+  ],
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "The Unlicense",
+  "bugs": {
+    "url": "https://github.com/Kevnz/no-suck-validation/issues"
+  },
+  "homepage": "https://github.com/Kevnz/no-suck-validation",
+  "devDependencies": {
+    "karma": "^0.12.22",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-ie-launcher": "^0.1.5",
+    "karma-mocha": "^0.1.8",
+    "karma-opera-launcher": "^0.1.0",
+    "karma-safari-launcher": "^0.1.1",
+    "mocha": "^1.21.4"
+  }
+}
